@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class opp : MonoBehaviour
 {
-    public float minSize = 0.5f;
-    public float maxSize = 2.0f;
+    public float minSize = 1.0f;
+    public float maxSize = 30f;
     Rigidbody2D rb;
-    public float minSpeed = 50f;
-    public float maxSpeed = 100f;
+    public float minSpeed = 300f;
+    public float maxSpeed = 500f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

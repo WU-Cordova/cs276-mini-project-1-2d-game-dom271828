@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    public float thrustForce = 2f;
+    public float thrustForce = 1.5f;
     private float elapsedTime = 0f;
     private float score = 0f;
     public float scoreMultiplier = 10f;
